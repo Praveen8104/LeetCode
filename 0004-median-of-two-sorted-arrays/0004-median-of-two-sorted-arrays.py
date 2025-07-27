@@ -8,4 +8,4 @@ class Solution:
             return o
         else:
             e=(merge[mid-1]+merge[mid])/2
-            return e
+            return 
