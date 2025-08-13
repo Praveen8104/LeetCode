@@ -7,6 +7,8 @@ class Solution {
            {
                if(nums[i]+nums[j]==target)
                {
+                    p[0]=i;
+                    p[1]=j;
                }
            }
        } 
