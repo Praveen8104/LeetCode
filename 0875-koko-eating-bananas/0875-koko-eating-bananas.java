@@ -8,7 +8,7 @@ class Solution {
 
         while(left < right){
             int mid = left + (right - left) / 2;
-            long hours = 0;
+            int hours = 0;
             for(int pile : piles){
                 hours += (pile + mid - 1) / mid;
             }
